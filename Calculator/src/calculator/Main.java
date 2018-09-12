@@ -1,30 +1,37 @@
 package calculator;
 
+import javax.swing.*;
+
 public class Main {
-	
-	int x;
-	int y;
-	
-	
-	public int add(int x, int y) {
-		return x + y;
-	}
-	
-	public int sub(int x, int y) {
-		return x - y;
-	}
+    public static void main(String[] args) throws ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
+        UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                UI myUI = new UI();
+                myUI.setVisible(true);
+            }
+        });
 
-	public int mult(int x, int y) {
-		return x * y;
-	}
+        int x;
+        int y;
 
-	public int div(int x, int y) {
-		return x % y;
-	}
-	
-	public static void main(String[] args) {
-		
-	}
 
+        /*public int add ( int x, int y){
+            return x + y;
+        }
+
+        public int sub ( int x, int y){
+            return x - y;
+        }
+
+        public int mult ( int x, int y){
+            return x * y;
+        }
+
+        public int div ( int x, int y){
+            return x % y;
+        }*/
+    }
 
 }
