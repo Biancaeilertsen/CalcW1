@@ -42,6 +42,11 @@ public class UI extends JFrame {
         setTitle("Our Calculator");
         setSize(400, 300);
 
+        Control control = new Control();
+        String operations;
+        String result;
+        int secondnum;
+
         a1Button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent arg0) {
@@ -159,6 +164,33 @@ public class UI extends JFrame {
         equalsButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
+
+                String answer;
+                secondnum = Integer.getInteger(textArea1.getText());
+                if(operations == "+"){
+                    answer = String.format(".2f", control.add(firstnum, secondnum));
+                    textArea1.setText(answer);
+                    control.memory = answer;
+
+                }else if(operations == "-"){
+                    answer = String.format(".2f", control.sub(firstnum, secondnum));
+                    textArea1.setText(answer);
+                    control.memory = answer;
+
+
+                }else if(operations == "*"){
+                    answer = String.format(".2f", control.mult(firstnum, secondnum));
+                    textArea1.setText(answer);
+                    control.memory = answer;
+
+
+                }else if(operations == "/"){
+                    answer = String.format(".2f", control.div(firstnum, secondnum));
+                    textArea1.setText(answer);
+                    control.memory = answer;
+
+                }
+
 
             }
         });

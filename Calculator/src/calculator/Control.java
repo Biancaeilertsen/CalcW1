@@ -3,6 +3,7 @@ package calculator;
 public class Control {
     int x;
     int y;
+    String memory;
 
 
         public int add ( int x, int y){
@@ -19,5 +20,10 @@ public class Control {
 
         public int div ( int x, int y){
             return x % y;
+        }
+
+        public String Memory(){
+            return memory;
+
         }
 }
