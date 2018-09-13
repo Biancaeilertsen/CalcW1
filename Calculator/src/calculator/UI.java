@@ -21,7 +21,6 @@ public class UI extends JFrame {
     private JButton cButton;
     private JButton mButton;
     private JButton bckButton;
-    private JButton commaButton;
 
     private JButton minusButton;
     private JButton plusButton;
@@ -140,12 +139,6 @@ public class UI extends JFrame {
                 }
             }
         });
-        commaButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-
-            }
-        });
 
         minusButton.addActionListener(new ActionListener() {
             @Override
@@ -175,14 +168,6 @@ public class UI extends JFrame {
                 firstnum = Integer.getInteger(textArea1.getText());
                 textArea1.setText("");
                 operations = "x";
-            }
-        });
-        percentButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                firstnum = Integer.getInteger(textArea1.getText());
-                textArea1.setText("");
-                operations = "%";
             }
         });
         divideButton.addActionListener(new ActionListener() {

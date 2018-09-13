@@ -59,16 +59,6 @@
           <text value="0"/>
         </properties>
       </component>
-      <component id="27d6b" class="javax.swing.JButton" binding="cButton" default-binding="true">
-        <constraints>
-          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <background color="-6029291"/>
-          <foreground color="-6029291"/>
-          <text value="C"/>
-        </properties>
-      </component>
       <component id="4b9e6" class="javax.swing.JButton" binding="a6Button" default-binding="true">
         <constraints>
           <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
@@ -83,14 +73,6 @@
         </constraints>
         <properties>
           <text value="3"/>
-        </properties>
-      </component>
-      <component id="1a329" class="javax.swing.JButton" binding="commaButton">
-        <constraints>
-          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value=","/>
         </properties>
       </component>
       <component id="3d20c" class="javax.swing.JButton" binding="minusButton">
@@ -151,14 +133,6 @@
           <text value="x"/>
         </properties>
       </component>
-      <component id="ee2f3" class="javax.swing.JButton" binding="mButton" default-binding="true">
-        <constraints>
-          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="M"/>
-        </properties>
-      </component>
       <component id="4361a" class="javax.swing.JButton" binding="bckButton" default-binding="true">
         <constraints>
           <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
@@ -167,20 +141,30 @@
           <text value="&lt;--"/>
         </properties>
       </component>
-      <component id="3e722" class="javax.swing.JButton" binding="percentButton">
-        <constraints>
-          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="%"/>
-        </properties>
-      </component>
       <component id="19f1c" class="javax.swing.JButton" binding="divideButton">
         <constraints>
           <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="/"/>
+        </properties>
+      </component>
+      <component id="27d6b" class="javax.swing.JButton" binding="cButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6029291"/>
+          <foreground color="-6029291"/>
+          <text value="C"/>
+        </properties>
+      </component>
+      <component id="ee2f3" class="javax.swing.JButton" binding="mButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="M"/>
         </properties>
       </component>
     </children>
