@@ -15,6 +15,7 @@
           </grid>
         </constraints>
         <properties>
+          <editable value="false"/>
           <text value=""/>
         </properties>
       </component>
@@ -63,6 +64,8 @@
           <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-6029291"/>
+          <foreground color="-6029291"/>
           <text value="C"/>
         </properties>
       </component>
@@ -111,6 +114,8 @@
           <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-13070937"/>
+          <foreground color="-14309629"/>
           <text value="="/>
         </properties>
       </component>
